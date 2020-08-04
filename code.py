@@ -13,7 +13,7 @@ while True:
 		print("Listening.....")
 		audio = r.listen(source)
 		try:
-			print("Regognizing....")
+			print("Recognizing....")
 			text = r.recognize_google(audio)
 			print('You said: ' + text)
 			if text == "stop":
@@ -44,5 +44,5 @@ while True:
 					mainloop()
 		except Exception as e:
 			print(e)
-			answer = "Sorry we cannt hear you"
+			answer = "Sorry we can't hear you"
 			print(answer)
