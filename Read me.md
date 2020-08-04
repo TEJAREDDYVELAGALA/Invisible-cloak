@@ -1,3 +1,3 @@
 Install
-   pip install wolframalpha wikipedia SpeechRecognition
+  $ pip install wolframalpha wikipedia SpeechRecognition
    
