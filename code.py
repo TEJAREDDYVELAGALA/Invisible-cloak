@@ -23,7 +23,7 @@ while True:
 				window = Tk()
 				window.geometry("700x600")
 				try:
-					app_id = "UPE5GE-3W3E2Q5294"
+					app_id = "enter your app id here"
 					client = wolframalpha.Client(app_id)
 					res = client.query(text)
 					answer = next(res.results).text
