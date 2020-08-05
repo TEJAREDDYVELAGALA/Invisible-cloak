@@ -44,5 +44,5 @@ while True:
 					mainloop()
 		except Exception as e:
 			print(e)
-			answer = "Sorry we can't hear you"
+			answer = "Sorry I can't hear your voice"
 			print(answer)
