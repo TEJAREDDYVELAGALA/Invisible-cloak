@@ -1,4 +1,4 @@
-#This code was written by TEJA REDDY VELAGALA
+
 # Personal Assistant
 
 import wolframalpha
